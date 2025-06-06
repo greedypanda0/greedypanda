@@ -1,42 +1,32 @@
 [
   {
-    "name": "Gizmo",
-    "from": 2022,
+    "title": "Discord Bot Developer / Backend Developer",
+    "company": "GizmoLab",
+    "from": "2022",
     "to": "2024",
-    "icon": "/icon.png",
-    "description": "blah blah",
-    "title": "Software developer"
-  },
-  {
-    "name": "Gizmo",
-    "from": 2020,
-    "to": "2025",
-    "icon": "/icon.png",
-    "description": "blah blah",
-    "title": "Software developer"
-  },
-  {
-    "name": "Gizmo",
-    "from": 2020,
-    "to": "2025",
-    "icon": "/icon.png",
-    "description": "blah blah",
-    "title": "Software developer"
-  },
-  {
-    "name": "Gizmo",
-    "from": 2020,
-    "to": "2025",
-    "icon": "/icon.png",
-    "description": "blah blah",
-    "title": "Software developer"
-  },
-  {
-    "name": "Gizmo",
-    "from": 2020,
-    "to": "2025",
-    "icon": "/icon.png",
-    "description": "blah blah",
-    "title": "Software developer"
+    "technologies": [
+      "Node.js",
+      "Python",
+      "MongoDB",
+      "SQL",
+      "Next.js",
+      "REST APIs"
+    ],
+    "description": [
+      "Designed and developed advanced Discord bots with moderation, music, leveling, and utility features.",
+      "Created turn-based and real-time multiplayer games playable directly within Discord.",
+      "Built RESTful APIs to connect bots with dashboards and external services.",
+      "Developed scalable backends using Node.js and MongoDB with optimized performance.",
+      "Implemented SQL for structured data storage, leaderboards, and game stats.",
+      "Built front-end dashboards using Next.js for user-friendly control panels.",
+      "Wrote Python scripts for automation, AI responses, and data processing.",
+      "Integrated webhooks, slash commands, and caching for smooth interaction and scalability."
+    ],
+    "highlights": [
+      "Modular and extensible bot architecture used across multiple bots.",
+      "Handled communities with 1000+ active users.",
+      "Optimized performance with rate-limiting and database indexing."
+    ],
+    "icon": "/icon.png"
   }
 ]

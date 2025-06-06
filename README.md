@@ -4,20 +4,10 @@ A handcrafted, open-source portfolio built with **Next.js**, **React**, and a sp
 This site is a website.
 
 ---
-
 ## 🌐 Live Preview
 
-> Want to take it for a spin?  
-> Here’s the live version of my portfolio in action:
-
-<iframe
-  id="inlineFrameExample"
-  title="Live Portfolio Preview"
-  width="100%"
-  height="400"
-  style="border: 1px solid #ddd; border-radius: 8px; margin-top: 12px;"
-  src="https://prathamrajpoot.netlify.app"
-></iframe>
+[Live Portfolio Preview](https://prathamrajpoot.netlify.app)
+> Click the image above to visit the live site.
 
 ---
 
