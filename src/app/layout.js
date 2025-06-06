@@ -15,7 +15,7 @@ const pacifico = Pacifico({
 });
 
 export const metadata = {
-  title: "Lucky's Dev Portfolio | Fullstack, Bot & Game Dev",
+  title: "Pratham's Dev Portfolio | Fullstack, Bot & Game Dev",
   description: "A curious developer",
     icons: {
     icon: "/icon.png",        
