@@ -24,7 +24,7 @@ export default function Hero() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.15, duration: 0.3 }}
           >
-            I'm Pratham, a Software Developer
+            I&apos;m Pratham, a Software Developer
           </motion.span>
 
           <motion.span

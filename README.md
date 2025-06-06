@@ -16,7 +16,7 @@ This site is a website.
   width="100%"
   height="400"
   style="border: 1px solid #ddd; border-radius: 8px; margin-top: 12px;"
-  src="https://YOUR-DEPLOYED-URL.com"
+  src="https://prathamrajpoot.netlify.app"
 ></iframe>
 
 ---
