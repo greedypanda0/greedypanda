@@ -1,15 +1,19 @@
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import { Orbitron, Pacifico } from "next/font/google";
+import "./style/globals.css";
+import { ThemeProvider } from "./context/Theme";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const orbitron = Orbitron({
   subsets: ["latin"],
+  weight: ["700"],
+  variable: "--font-orbitron",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const pacifico = Pacifico({
+  weight: '400', 
+  subsets: ['latin'],
+  variable: "--font-pacifico",
 });
+
 
 export const metadata = {
   title: "Create Next App",
@@ -20,9 +24,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${pacifico.variable} ${orbitron.className} antialiased`}
       >
-        {children}
+        <ThemeProvider>{children}</ThemeProvider>
       </body>
     </html>
   );

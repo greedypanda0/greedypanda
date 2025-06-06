@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Gizmo",
+    "from": 2022,
+    "to": "2024",
+    "icon": "/icon.png",
+    "description": "blah blah",
+    "title": "Software developer"
+  },
+  {
+    "name": "Gizmo",
+    "from": 2020,
+    "to": "2025",
+    "icon": "/icon.png",
+    "description": "blah blah",
+    "title": "Software developer"
+  },
+  {
+    "name": "Gizmo",
+    "from": 2020,
+    "to": "2025",
+    "icon": "/icon.png",
+    "description": "blah blah",
+    "title": "Software developer"
+  },
+  {
+    "name": "Gizmo",
+    "from": 2020,
+    "to": "2025",
+    "icon": "/icon.png",
+    "description": "blah blah",
+    "title": "Software developer"
+  },
+  {
+    "name": "Gizmo",
+    "from": 2020,
+    "to": "2025",
+    "icon": "/icon.png",
+    "description": "blah blah",
+    "title": "Software developer"
+  }
+]
