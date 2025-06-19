@@ -12,9 +12,14 @@ const lines = [
   "powered by curiosity.",
 ];
 
-export default function Stack() {
+export default function Projects() {
   const [activeIndex, setActiveIndex] = useState(0);
   const itemRefs = useRef([]);
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    setIsMobile(window.innerWidth < 768);
+  }, []);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -62,12 +67,12 @@ export default function Stack() {
 
       <motion.div
         initial={{ height: 0, opacity: 0 }}
-        animate={{ height: "auto", opacity: 1 }}
+        animate={{ height: isMobile ? "auto" : 350, opacity: 1 }}
         transition={{ duration: 0.4, delay: 0.8, ease: "easeOut" }}
-        className="my-16 flex flex-col md:flex-row w-full h-[70vh] md:h-80 gap-2"
+        className="my-16 flex flex-col md:flex-row w-full h-[70vh] md:h-88 gap-2"
       >
         {/* Left Pane */}
-        <div className="w-full md:w-1/2 h-full overflow-y-auto snap-y snap-mandatory space-y-6 pr-2">
+        <div className="w-full md:w-1/2 h-full overflow-y-auto snap-y snap-mandatory space-y-2 pr-2">
           {projects.map((item, idx) => (
             <motion.div
               key={idx}
@@ -76,13 +81,17 @@ export default function Stack() {
               data-index={idx}
               initial={false}
               animate={
-                activeIndex === idx
+                isMobile
+                  ? { opacity: 1, scale: 1 }
+                  : activeIndex === idx
                   ? { opacity: 1, scale: 1 }
                   : { opacity: 0.6, scale: 0.95 }
               }
-              transition={{ duration: 0.35, ease: "easeOut" }}
+              transition={{ duration: 0.45, ease: "easeOut" }}
               className={`snap-center px-6 py-4 rounded-xl border ${
-                activeIndex === idx
+                isMobile
+                  ? "border-transparent"
+                  : activeIndex === idx
                   ? "bg-[var(--card)] border-[var(--accent)]"
                   : "border-transparent"
               }`}
