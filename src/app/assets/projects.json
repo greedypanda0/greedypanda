@@ -1,1 +1,27 @@
-[]
+[
+  {
+    "name": "Whiskers",
+    "description": "Whiskers is a sleek, self-hostable platform for writing and publishing books or blogs. Built with Next.js, Node.js, Tailwind CSS, and MongoDB, it features a clean UI, built-in auth (Auth.js, Google, GitHub), and a powerful editor. Whether you're a blogger or author, Whiskers gets you writing fast—with zero setup friction.",
+    "stack": [
+      "Next.js",
+      "Node.js",
+      "Tailwind CSS",
+      "MongoDB",
+      "Auth.js",
+      "Vercel"
+    ],
+    "github": "https://github.com/greedypanda0/whiskers",
+    "url": "https://whiskers-chi.vercel.app/"
+  },
+  {
+    "name": "WhyGui",
+    "description": "WhyGUI is a minimal, custom GUI framework inspired by JSX, XML, and templating engines — but with zero HTML or CSS. Write simple .gui files using a declarative, tag-based syntax and render native desktop UIs using PySide6 (Qt). Perfect for designing rapid prototypes or dynamic UIs with full Python control.",
+    "stack": [
+      "Python",
+      "QT",
+      "re"
+    ],
+    "github": "https://github.com/greedypanda0/WhyGui",
+    "url": ""
+  }
+]
