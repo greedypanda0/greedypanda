@@ -90,7 +90,7 @@ export default function Projects() {
               transition={{ duration: 0.45, ease: "easeOut" }}
               className={`snap-center px-6 py-4 rounded-xl border ${
                 isMobile
-                  ? "border-transparent"
+                  ? "border border-[var(--border)]"
                   : activeIndex === idx
                   ? "bg-[var(--card)] border-[var(--accent)]"
                   : "border-transparent"

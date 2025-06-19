@@ -72,8 +72,11 @@ export default function Timeline({ items = [] }) {
                     {item.technologies.map((tech) => (
                       <span
                         key={tech}
-                        className="text-xs px-2 py-0.5 bg-[var(--accent)]/10 border border-[var(--accent)] text-[var(--accent-foreground)] rounded-full"
+                        className="flex items-center gap-1 text-xs px-2 py-0.5 bg-[var(--accent)]/10 border border-[var(--accent)] text-[var(--accent-foreground)] rounded-full"
                       >
+                        <span className="text-[10px] leading-none opacity-80">
+                          ⟡
+                        </span>
                         {tech}
                       </span>
                     ))}
