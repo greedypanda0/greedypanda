@@ -16,12 +16,22 @@
   {
     "name": "WhyGui",
     "description": "WhyGUI is a minimal, custom GUI framework inspired by JSX, XML, and templating engines — but with zero HTML or CSS. Write simple .gui files using a declarative, tag-based syntax and render native desktop UIs using PySide6 (Qt). Perfect for designing rapid prototypes or dynamic UIs with full Python control.",
-    "stack": [
-      "Python",
-      "QT",
-      "re"
-    ],
+    "stack": ["Python", "QT", "re"],
     "github": "https://github.com/greedypanda0/WhyGui",
     "url": ""
+  },
+  {
+    "name": "Tulip",
+    "description": "A real-time collaborative drawing application where users can join rooms, draw together, and chat in real-time. Built with Next.js, React, and Socket.IO, featuring a playful cartoon-style UI.",
+    "stack": [
+      "Next.js",
+      "Node.js",
+      "Tailwind CSS",
+      "Vercel",
+      "Render",
+      "Socket.IO"
+    ],
+    "github": "https://github.com/greedypanda0/Tulip",
+    "url": "https://tulip-ten.vercel.app/"
   }
 ]
